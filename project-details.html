@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Project Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,
+              500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/raj_profile.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Raj Mudigonda</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="http://www.linkedin.com/in/rajmudigonda893" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/rajm893" class="github"><i class="bx bxl-github"></i></a>
+          <a href="https://twitter.com/RajMudigonda1" class="twitter"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li>        
+          <li><a href="index.html#edu_exp" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Education and Experience</span></a></li>
+          <li><a href="index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+          <li><a href="index.html#certification" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Certifications</span></a></li>
+          <li><a href="index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Project Details</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Project Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="project-1" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>Retail store item shrinkage prediction</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/item_shrinks_diag.png" alt="">
+                <p>
+                  At Johnson Controls, one of our large retail store clients was facing item shrinkage which resulted in 
+                  huge losses. The objective was to predict the number of item shrinks that's going to occur over a period 
+                  of 4 weeks on a daily interval bucketed as Morning, Afternoon, and Evening.
+                </p>
+                <p>
+                  <strong>BigQuery</strong> was used as a Data Warehouse and <strong>Google AI Platform (Now Vertex AI Platform)</strong> 
+                  was used for training and serving the model.
+                </p>
+                <p>
+                  The model was trained on an ensemble of machine learning models like <strong>Extra-trees regressor</strong> and <strong>kNN</strong>.
+                </p>
+                <p>
+                  The http-endpoint from the AI platform model prediction was used by Looker as a Dashboard to display the 4-weeks predicted result.
+                </p>
+                <p>
+                  This reduced item losses by 85% by predicting the number of item shrinks 4 weeks prior to the possible event, which helped in 
+                  managing the store associates to prevent item shrinks.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+    <section id="project-2" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>Retail store Anomaly Detection</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/anamolies_detect.png" alt="">
+                <p>
+                  The project was aimed at detecting any potential theft or fraud in retail stores by analyzing alarms generated by electronic 
+                  article surveillance systems.
+                </p>
+                <p>
+                  During the project, we identified an issue regarding the accuracy of the alarms generated. <strong>False alarms were causing 
+                    unnecessary disruption in the store's operations.</strong>
+                </p>
+                <p>
+                  To solve this problem, I built an <strong>anomaly detection model</strong> that can differentiate between severe and false alarms.
+                   <strong>Bigquery</strong> was used as a data warehouse, and <strong>Google AI Platform (now Vertex AI Platform)</strong> was used
+                   for training and serving the model.
+                </p>
+                <p>
+                  The model was trained on the <strong>XGBoost model</strong> to predict the EAS alarms, which was helpful to create the upper 
+                  boundary to detect anomalies.
+                </p>
+                <p>
+                  The <strong>http-endpoint</strong> from the AI platform model prediction was used by <strong>Looker</strong> as a dashboard 
+                  to display the anomalies from the predicted results.
+                </p>
+                <p>
+                  This data insight created a huge impact by <strong>minimizing item losses by 80% per month.</strong>
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+    <section id="project-3" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>Edge computing solution using Google IOT Core, Google PubSub, Dataflow and Bigquery</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/Edge_computing_Solution.png" alt="">
+                <p>
+                  The output logs were generated from the <a href="#portfolio-6" title="video_ai"><strong>video analytics solution</strong></a> 
+                  deployed on edge devices at the retail store premises.
+                </p>
+                <p>
+                  The goal was to automatically migrate logs from various retailers' edge devices to <strong>Google Cloud BigQuery</strong>. 
+                  The near-real-time data is ingested to <strong>Google IoT Core</strong> and <strong>PubSub</strong> through the MQTT bridge. 
+                  <strong>Google Dataflow</strong> was used to process the data and store it in <strong>Google BigQuery</strong>.
+                </p>
+                <p>
+                  This reduced latency by 25% by automating the process of managing and maintaining the data.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
+    <section id="project-4" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>AI Based Document Data Extraction</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/ocr_solution.png" alt="">
+                <p>
+                  Designed and developed an end-to-end AI-based document data extraction solution that extracts key text information (as per the 
+                  client's requirements) from multiple types of digitized documents (images and PDF) by applying optical character recognition (OCR).
+                   For OCR, we used <strong>Tesseract 4</strong>, which extracts quite well if a clear image is passed. So, image processing 
+                   techniques such as blurring, noise reduction, and so on were used before passing the image to OCR. The documents were both 
+                   structured and unstructured.
+                </p>
+                <p>
+                  Applied <strong>NLP techniques</strong> like <strong>NER (Named Entity Recognition)</strong> using <strong>Spacy</strong> and 
+                  <strong>Text Classification</strong> on the extracted data to differentiate the key information from the rest of the text in
+                  the document. Further enhanced the solution with multilingual text extraction support. The extracted data fields were stored in 
+                  <strong>MongoDB</strong>.
+                </p>
+                <p>
+                  This saved the overhead cost and time of our clients by 45x (from 3 minutes per document to 4 seconds per document); from manual 
+                  data entry of the physical documents to automating the process with our solution, which extracts key information from more than 
+                  900 documents every hour.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
+    <section id="project-5" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>Explosives classification using LIBS data</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/explosives.png" alt="">
+                <p>
+                  Explosives are reactive substances consisting of a great amount of potential energy that produce an explosion that releases 
+                  huge amounts of energy in the form of heat, sound, light, and pressure. This project aims to classify explosives such as HMX,
+                  RDX, NTO, PETN, and TNT into their respective classes.
+                </p>
+                <p>
+                  <strong>Laser-Induced Breakdown Spectroscopy (LIBS)</strong> is an atomic emission spectroscopy technique that uses high-energy 
+                  laser pulses as a source of excitation. The laser is focused on the surface of a material to form plasma, which atomizes and 
+                  excites the sample. In LIBS spectral analysis, the emitted light is collected with a spectrograph detector, and each element 
+                  in the periodic table is associated with unique LIBS spectral peaks. Its chemical composition can be easily determined by 
+                  identifying different peaks in the analyzed samples. The LIBS spectrum considers each feature as having an amplitude or 
+                  intensity at different wavelengths in the range of 200–1000 nm.
+                </p>
+                <p>
+                  From LIBS spectrum analysis of diverse materials, we obtain 25699 features. As the feature dimension is quite high, I applied
+                   <strong>PCA</strong> and retained features with the highest variance. Further, trained <strong>kNN</strong> and <strong>SVM</strong> 
+                   models to classify the explosives.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
+    <section id="project-6" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>Retail store Visual analytics solution from camera feed</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/ai_camera_usecase.png" alt="">
+                <p>
+                  Developed a video analytic solution with IP cameras installed in retail stores to detect occupancy, age-gender, social distancing, 
+                  shelf sweep, etc., through the GStreamer pipeline on the Intel OpenVINO platform; driving <strong>$55 million</strong> in revenue every year.
+                </p>
+                <p>
+                  Implemented a <strong>factory design pattern</strong> where the use case manager was a superclass and the respective use case 
+                  (e.g., occupancy, age-gender, etc.) was a subclass. This solution was deployed for large retail store clients across Europe, 
+                  Asia, and North America.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
+    <section id="project-7" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>MLOps with DVC and MLFLow</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/ML_pipeline.png" alt="">
+                <p>
+                  As continuous integration and deployment of machine learning pipelines are important for the machine learning lifecycle, 
+                  I have demonstrated the solution using <strong>MLflow</strong> and <strong>DVC</strong> (data version control). Here, the 
+                  input data is tracked and maintained by DVC, which uses Git to track the .dvc files and Google Cloud Storage for storing 
+                  the data source.
+                </p>
+                <p>
+                  The model pipelines like load, split, train, and evaluate are executed in stages using the dvc.yaml file. All the required 
+                  configuration required during the ML pipeline is used from the config file (params.yaml).
+                </p>
+                <p>
+                  Here, the application is served in two ways:
+                </p>
+                <ul>
+                  <li><strong>Prediction as a service using the API</strong></li>
+                  <li><strong>Prediction using the web UI</strong></li>
+                </ul>
+                <p>
+                  The prediction server is built using Flask and deployed on the Heroku cloud.
+                </p>
+                <p>
+                  I have also used <strong>Github Actions</strong> for workflows using ci-cd.yaml (.github/workflows/ci-cd.yaml) for 
+                  continuous integration and deployment. The deployment is done once all the test cases are passed and the job is completed.
+                </p>
+                <p>
+                  You can find the project code on <a href="https://github.com/rajm893/ML_model_deployment_using_DVC_and_MLFlow">GitHub Link</a>.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
+    <section id="project-8" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+
+          </div>
+            <div class="portfolio-description">
+              <h2><u>NLP based model building on Quora question pairs dataset with FastAPI deployment</u></h2>
+              <div class="col-lg-8">
+                <img src="assets/img/portfolio/Quora_diag.png" alt="">
+                <p>
+                  The objective is to demonstrate the various ways of deployment of Machine Learning models on GCP such as <strong> 
+                    Google Compute Engine</strong> (Google Cloud VM), <strong>Google App Engine</strong> (Serverless), and <strong> 
+                      Google Kubernetes Engine</strong> (Deploying at scale) using <strong>FastAPI</strong> and <strong>Docker</strong>.
+                </p>
+                <p>
+                  The requirement of this project is to predict which of the provided pairs of questions contain two questions with the same meaning.
+                  <br>
+                  Sample question1: 'How can I be a good geologist?'
+                  <br>
+                  question2: 'What should I do to be a great geologist?'
+                  <br>
+                  <br>
+                  Expected result: True
+                </p>
+                <p>
+                  The Docker with FastAPI is deployed and served on 3 different GCP services as shown above.
+                </p>
+                <p>
+                  You can find the project code on <a href="https://github.com/rajm893/NLP-based-ML-model-on-Quora-question-pairs-dataset">GitHub Link</a>.
+                </p>
+               </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+
+
+
+    
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
