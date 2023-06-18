@@ -1,6 +1,3 @@
-Thanks for downloading this template!
+Hi! I am Raj Mudigonda
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+My portfolio link: [Portfolio](rajm893.github.io/rajmudigonda) 
